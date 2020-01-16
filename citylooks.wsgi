@@ -6,4 +6,3 @@ logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0, '/home/paulsuk/workspace/citylooks')
 
 from citylooks import app as application
-application.secret_key = 'secret'
