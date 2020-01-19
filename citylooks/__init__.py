@@ -12,4 +12,4 @@ def lel():
 	return render_template('index2.html')
         
 if __name__ == '__main__':
-    app.run()
+    app.run(port=int("80"))
